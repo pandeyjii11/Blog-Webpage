@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(28, 8, 31, 0.912);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3rem;
+    color: #fff;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2, h3 {
+    color: rgb(207, 191, 14);
+    padding: 20px 0;
+}
+p {
+    padding: 15px 0;
+}
+
+ul, ol {
+    padding: 0 50px;
+}
+
+button {
+    background-color: rgba(28, 8, 31, 0.912);
+    color: #fff;
+    width: 12%;
+    height: 4%;
+    border-radius: 20px;
+    border: 1px solid  white;
+    margin-right: 5px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.contanier {
+    width: 80%;
+    height: 100%;
+    margin: 40px auto;
+}
+
+.header {
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.header h1 {
+    text-decoration: underline;
+}
+
+.header a {
+    color: white;
+}
+
+.blog {
+    padding: 10px 20px;
+}
+
+.blog a {
+    display: block;
+    color: rgb(219, 51, 224);
+    line-height: 1.5rem;
+}
+
+.box {
+    border: 1px solid #fff;
+}
